@@ -202,6 +202,7 @@
 <body>
     <!-- HEADER: MENU + HEROE SECTION -->
     <header>
+        <h1>Controlador</h1>
         <div class="menu">
             <ul>
                 <li class="logo">
@@ -215,6 +216,7 @@
                     <button id="menuToggle">&#9776;</button>
                 </li>
                 <li class="menu-item hidden"><a href="my_web">Home</a></li>
+                <li class="menu-item hidden"><a href="products">Productos</a></li>
                 <li class="menu-item hidden"><a href="https://codeigniter.com/user_guide/" target="_blank">Docs</a>
                 </li>
                 <li class="menu-item hidden"><a href="https://forum.codeigniter.com/" target="_blank">Community</a></li>
