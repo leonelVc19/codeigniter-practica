@@ -20,3 +20,10 @@ $routes->view('productList/([0-9]{2})/(:alpha)', 'products_list');
 $routes->group('admin', static function($routes) {
     $routes->get('/my_web', 'Admin\MyWeb::my_web');
 });
+
+$routes->get('empleados', 'Empleados::index');
+$routes->get('empleados/nuevo', 'Empleados::nuevo_vista');
+$routes->post('empleados/crear', 'Empleados::crear_empleado');
+$routes->get('empleados/editar', 'Empleados::editar_vista');
+$routes->post('empleados/editar_empleado', 'Empleados::editar_empleado');
+

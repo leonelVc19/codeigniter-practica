@@ -200,9 +200,7 @@
 </head>
 
 <body>
-    <!-- HEADER: MENU + HEROE SECTION -->
     <header>
-        <h1>Controlador</h1>
         <div class="menu">
             <ul>
                 <li class="logo">
@@ -217,10 +215,7 @@
                 </li>
                 <li class="menu-item hidden"><a href="my_web">Home</a></li>
                 <li class="menu-item hidden"><a href="products">Productos</a></li>
-                <li class="menu-item hidden"><a href="https://codeigniter.com/user_guide/" target="_blank">Docs</a>
-                </li>
-                <li class="menu-item hidden"><a href="https://forum.codeigniter.com/" target="_blank">Community</a></li>
-                <li class="menu-item hidden"><a href="https://codeigniter.com/contribute" target="_blank">Contribute</a>
+                <li class="menu-item hidden"><a href="<?= base_url('empleados')?>">Empleados</a></li>
                 </li>
             </ul>
         </div>
